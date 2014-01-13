@@ -5,6 +5,6 @@ namespace Brainly\Test\TEsts;
 class BasicTest extends \PHPUnit_Framework_TestCase {
     public function testTrueIsTrue() {
         $this->assertTrue(true);
-	$this->assertTrue(false);
+	$this->assertTrue(1==1);
     }
 }
