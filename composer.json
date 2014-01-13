@@ -1,0 +1,18 @@
+{
+    "name": "brainly/test",
+    "description": "Test repo",
+    "version": "0.0.1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Łukasz Lalik",
+            "email": "lukasz.lalik@brainly.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": { "Brainly\\Test\\": "src/" }
+    }
+}
